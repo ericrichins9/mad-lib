@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Mad Lib Generator</title>
+</head>
+<body>
+    
+    <div class='header'>
+        <h1>Mad Lib Generator</h1>
+    </div>
+    <div class='header'>
+        <h4>Ready for sum [insert adjective here] fun?</h4>
+    </div>
+    <div class='top-words'>
+        <div class='nouns'>
+            <h5>Type Nouns Here</h5>
+            <textarea rows=2 cols="18" id="nouns" placeholder="wall, computer, boss, apple"></textarea>
+        </div>
+        <div class='verbs'>
+            <h5>Type Verbs Here</h5>
+            <textarea rows=2 cols="18" id="verbs" placeholder="run, burp, sleep, yawn"></textarea>
+        </div>
+    </div>
+
+    <div class='bottom-words'>
+        <div class='adjectives'>
+            <h5>Type Adjectives Here</h5>
+            <textarea rows=2 cols="18" id="adjectives"></textarea>
+        </div>
+        <div class='adverbs'>
+            <h5>Type Adverbs Here</h5>
+            <textarea rows=2 cols="18" id="adverbs"></textarea>
+        </div>
+    </div>
+
+    <div class='radio-buttons'>
+        <div class='radio'>
+            <input type="radio" name='rad-answer' value='Christmas Tree' id='story1'>Christmas Tree
+        </div>
+        <div class='radio'>
+            <input type="radio" name='rad-answer' value='Shopping' id='story2'>Shopping
+        </div>
+        <div class='radio'>
+        <input type="radio" name='rad-answer' value='Brainstorm' id='story3'>Brainstorm
+        </div>    
+    </div>
+
+    <div class='gen-button'>
+        <button id="gen-mad-lib">Generate Mad Lib!</button>
+    </div>
+
+    <div id="mad-lib-container"></div>
+    
+    <script src="stories.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

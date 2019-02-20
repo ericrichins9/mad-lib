@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background: yellowgreen;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+    justify-content: center;
+}
+ .top-words {
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.bottom-words {
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   
+}
+
+.radio-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 30px;
+}
+
+.gen-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#nouns {
+    height: 37px;
+}
+#verbs {
+    height: 37px;
+}
+
+#adjectives {
+    height: 37px;
+}
+
+#adverbs {
+    height: 37px;
+} */
+
+/* #story1{
+    display: flex;
+    flex-wrap: wrap;
+} */
